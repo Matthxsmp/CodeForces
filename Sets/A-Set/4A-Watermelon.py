@@ -1,9 +1,15 @@
 w=int(input())
-#print((w/2)%2)
-if int(w/2)%2==0:
-    if int(w/4)%2==0:
-        print("YES")
-    else:
-        print("NO")
+if w > 2 and w % 2 == 0:
+    print("YES")
 else:
     print("NO")
+
+
+
+
+
+# Codeforces
+
+# Exercise : 4A-Watermelon
+
+# Difficulty : 800
