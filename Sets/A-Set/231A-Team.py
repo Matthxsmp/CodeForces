@@ -10,3 +10,13 @@ for _ in range(int(input())):
             solution+=1
             sure=0
 print(solution)
+
+
+
+
+
+# Codeforces
+
+# Exercise : 231A-Team
+
+# Difficulty : 800
