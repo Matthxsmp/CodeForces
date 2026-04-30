@@ -1,10 +1,8 @@
 import sys
-
-# Optimización de I/O
 input = sys.stdin.readline
 
 def solve():
-    # Aquí va tu lógica de Genio
+    # Aquí va tu lógica
     pass
 
 def main():
