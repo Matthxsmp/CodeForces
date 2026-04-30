@@ -1,10 +1,15 @@
-matrix=[]
 for _ in range(5):
-    matrix.append(list(map(int,input().split())))
-print(matrix)
-for i in matrix:
-    print(f'i vale {i}')   
-    print(matrix.index(i))
-    for u in i:
-        if u==1:
-            print(f'u vale {u}')
+    matrix=list(map(int,input().split()))
+    if 1 in matrix:
+        x=(abs(_-2)+abs(matrix.index(1)-2))
+print(x)
+
+
+
+
+
+# Codeforces
+
+# Exercise : 263A-Beautiful Matrix
+
+# Difficulty : 800
